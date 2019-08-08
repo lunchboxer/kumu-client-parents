@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "*.svelte": "html"
+  },
+  "files.watcherExclude": {
+    "public/bundle": true
+  },
+  "editor.formatOnType": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "html",
+      "autoFix": true
+    }
+  ]
+}
